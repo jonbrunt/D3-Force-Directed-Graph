@@ -149,3 +149,8 @@ const makeRequest = async () => {
 };
 // initialization on page load
 document.addEventListener('DOMContentLoaded', makeRequest());
+
+//  copyright year dynamic update
+const yearSpan = document.querySelector('#year');
+//  updates year using date object and built in method
+yearSpan.innerHTML = `${new Date().getFullYear()}`;
