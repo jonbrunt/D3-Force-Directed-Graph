@@ -28,9 +28,8 @@ button {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.2em;
   font-weight: 700;
-  border: 4px solid #000080;
-  border-radius: 10px;
-  box-shadow: 5px 5px 10px #000000;
+  border: 2px solid #000080;
+  border-radius: 5px;
 }
 
 button:first-of-type {
@@ -39,14 +38,14 @@ button:first-of-type {
 
 button:hover {
   cursor: pointer;
-  background-color: #2a2a2a;
+  background-color: #B2BEB5;
   color: #ffffff;
 }
 
 .svg {
   margin-top: 10px;
   background-color: #2a2a2a;
-  box-shadow: 5px 5px 10px #000000;
+  border-radius: 5px;
 }
 
 .links line {
